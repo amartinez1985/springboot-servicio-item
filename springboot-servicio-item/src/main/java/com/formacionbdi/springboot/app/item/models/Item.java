@@ -1,5 +1,3 @@
-//Este es un proyecto de spring cloud
-
 package com.formacionbdi.springboot.app.item.models;
 
 public class Item {
