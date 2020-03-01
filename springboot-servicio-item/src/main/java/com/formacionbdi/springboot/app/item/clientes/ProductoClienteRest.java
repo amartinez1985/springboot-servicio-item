@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.formacionbdi.springboot.app.item.models.Producto;
 
-@FeignClient(name = "servicios-productos", url = "http://localhost:8001")
+@FeignClient(name = "servicios-productos")
 public interface ProductoClienteRest {
 	
 	@GetMapping("/listar")
