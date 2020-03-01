@@ -15,7 +15,8 @@ import com.formacionbdi.springboot.app.item.models.service.ItemService;
 public class ItemController {
 	
 	@Autowired
-	@Qualifier("itemServiceFeign")
+	//@Qualifier("itemServiceFeign")
+	@Qualifier("serviceRestTemplate")
 	private ItemService itemService;
 	
 	@GetMapping("/listar")

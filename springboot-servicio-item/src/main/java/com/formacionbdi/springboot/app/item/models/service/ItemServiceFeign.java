@@ -11,7 +11,7 @@ import com.formacionbdi.springboot.app.item.clientes.ProductoClienteRest;
 import com.formacionbdi.springboot.app.item.models.Item;
 
 @Service("itemServiceFeign")
-@Primary
+//@Primary Este se ponen para especificar que primero se debe ejecutar este clase que implementa el ItemService para que ejecute primero Feign en vez de restTemplate
 public class ItemServiceFeign implements ItemService {
 
 	@Autowired
