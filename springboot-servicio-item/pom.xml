@@ -46,9 +46,16 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
+<!-- Se comenta la dependencia de Ribbon ya que se va a utilizar Eureka Server -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springframework.cloud</groupId> -->
+<!-- 			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+			<artifactId>
+				spring-cloud-starter-netflix-eureka-client
+			</artifactId>
 		</dependency>
 	</dependencies>
 
